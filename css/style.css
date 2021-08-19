@@ -1,0 +1,57 @@
+body {
+    background-color: #3a3d40;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+
+    background-color: #be3144;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+header #nav-list {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 100%;
+    margin-right: 2em;
+    gap: 1em;
+    justify-content:space-between;
+    list-style: none;
+}
+body main #welcome-section {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+body main #welcome-section #the-name {
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-weight: 550;
+    color: rgb(219, 12, 12);
+}
+body main #welcome-section #the-profession {
+    font-size: 1.5em;
+}
+#profile-link {
+   color: ghostwhite;
+   display: flex;
+   flex-basis:100%;
+   justify-content:center;
+   font-size: 2.5em;
+
+}
+ #link-project  {
+    color: ghostwhite;
+    display: flex;
+    flex-basis:100%;
+    justify-content:center;
+    font-size: 0.5em;
+ 
+ }
