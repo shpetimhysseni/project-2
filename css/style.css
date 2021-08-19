@@ -7,7 +7,10 @@ body {
     left: 0;
     right: 0;
     display: flex;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c8e2ee5c32df6c2a2b2e7721f9624f7ca5bea36
     background-color: #be3144;
     margin-left: -10px;
     margin-right: -10px;
@@ -16,7 +19,11 @@ header #nav-list {
     display: flex;
     flex-direction: row-reverse;
     flex-basis: 100%;
+<<<<<<< HEAD
     margin-right: 2em;
+=======
+    margin-right: 1em;
+>>>>>>> 2c8e2ee5c32df6c2a2b2e7721f9624f7ca5bea36
     gap: 1em;
     justify-content:space-between;
     list-style: none;
@@ -27,8 +34,12 @@ body main #welcome-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height: 100vh;
     
+=======
+    margin: 6em;
+>>>>>>> 2c8e2ee5c32df6c2a2b2e7721f9624f7ca5bea36
 }
 body main #welcome-section #the-name {
     margin-bottom: 0;
@@ -39,6 +50,7 @@ body main #welcome-section #the-name {
 body main #welcome-section #the-profession {
     font-size: 1.5em;
 }
+<<<<<<< HEAD
 #profile-link {
    color: ghostwhite;
    display: flex;
@@ -46,12 +58,3 @@ body main #welcome-section #the-profession {
    justify-content:center;
    font-size: 2.5em;
 
-}
- #link-project  {
-    color: ghostwhite;
-    display: flex;
-    flex-basis:100%;
-    justify-content:center;
-    font-size: 0.5em;
- 
- }
